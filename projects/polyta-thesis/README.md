@@ -10,6 +10,7 @@ I am developing a coarse-grained model of poly(thioctic acid), or poly(TA), to s
 
 | Stage | Modeling decision and validation | Status |
 | --- | --- | --- |
+| [0. Material system](workflow/00-material-system.md) | TA chemistry, dynamic interactions, and research questions | Background |
 | [1. Closed-ring monomer](workflow/01-closed-ring-monomer.md) | Split a coarse side-chain bead into two. Fit bonded potentials and compare finite-temperature atomistic and coarse-grained distributions. | Validated at 300 K |
 | [2. Open repeat unit and oligomer junction](workflow/02-open-repeat-and-junction.md) | Fit the repeat unit using the center of an atomistic trimer. Obtain a separately reweighted equilibrium reference for the internal disulfide junction of a tetramer. Test transfer across three chain lengths. | Bonded working model established |
 | [3. Bulk nonbonded force field](workflow/03-nonbonded-force-field.md) | Fit mapped atomistic radial distribution functions (RDFs) with iterative Boltzmann inversion (IBI). Compare WCA- and LJ-based models under pressure control. | Working set selected for linear-chain simulations |
